@@ -7,7 +7,7 @@ const AddCompoenent = () => {
     <Box
       boxShadow="md"
       p="10"
-      rounded="lg"
+      rounded="xl"
       bg="white"
       width="95%"
       height="auto"

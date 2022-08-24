@@ -1,10 +1,14 @@
 import React from "react";
 import { Box, Text } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import { boxStyle, hoverStyle, iconStyle, textStyle } from "../../utils/LeftBoxSTyle";
+import {
+  boxStyle,
+  hoverStyle,
+  iconStyle,
+  textStyle,
+} from "../../utils/LeftBoxSTyle";
 
-
-const KeySeries = () => {
+const QuickLinks = () => {
   return (
     <Box
       boxShadow="md"
@@ -18,35 +22,31 @@ const KeySeries = () => {
     >
       <Box h="40px" w="100%" borderBottom="1px solid gray" p="1rem" mb="0.5rem">
         <Text mt="-5px" fontSize="12px" fontWeight="500">
-          Key Series
+          Quick Links
         </Text>
       </Box>
       <Box _hover={hoverStyle} style={boxStyle}>
         <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Zimbabwe v India</Text>
+        <Text style={textStyle}>T20 Time Out</Text>
       </Box>
       <Box _hover={hoverStyle} style={boxStyle}>
         <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>West Indies s New Zealand</Text>
+        <Text style={textStyle}>T20 Time Out Hindi</Text>
       </Box>
       <Box _hover={hoverStyle} style={boxStyle}>
         <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Australia vs Zimbabwe</Text>
+        <Text style={textStyle}>ICC Rankings</Text>
       </Box>
       <Box _hover={hoverStyle} style={boxStyle}>
         <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Asia Cup</Text>
+        <Text style={textStyle}>Fantasy Pick</Text>
       </Box>
       <Box _hover={hoverStyle} style={boxStyle}>
         <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>England vs South Africa</Text>
-      </Box>
-      <Box _hover={hoverStyle} style={boxStyle}>
-        <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Netherland vs Pakistan</Text>
+        <Text style={textStyle}>Haan Ya Naa</Text>
       </Box>
     </Box>
   );
 };
 
-export default KeySeries;
+export default QuickLinks;
