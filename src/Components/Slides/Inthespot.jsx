@@ -1,15 +1,14 @@
 import React from "react";
-import { Text, Heading, Image, Box } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { sliderData } from "../Slides/Spotlight";
 import styles from "../Slides/inthespot.module.css";
 import { useNavigate } from "react-router-dom";
-import { ChevronRightIcon, ChevronLeftIcon } from "@chakra-ui/icons";
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <Box
       className={className}
