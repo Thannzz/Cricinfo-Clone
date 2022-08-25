@@ -1,8 +1,8 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import { LeftBox } from "./LeftComponent/LeftBox";
-import MIddleNews from "./MIddleNews";
-import RightBox from "./RightBox";
+import MIddleNews from "./MidComponent/MIddleNews";
+import RightBox from "./RightComponent/RightBox";
 
 const HomeNews = () => {
   return (
