@@ -26,6 +26,11 @@ const teamname1 = {
   color: "#2B2C2D",
   margin: "auto 10px",
 };
+const result = {
+  fontSize: "12px",
+  color: "#2B2C2D",
+  paddingBottom: "1rem",
+};
 const ResultBox = ({ data }) => {
   // console.log(data.live)
   return (
@@ -50,6 +55,7 @@ const ResultBox = ({ data }) => {
         </Box>
         <Box style={teamname1}>{data.team2Score}</Box>
       </Box>
+      <Box style={result}>{data.result}</Box>
     </Box>
   );
 };

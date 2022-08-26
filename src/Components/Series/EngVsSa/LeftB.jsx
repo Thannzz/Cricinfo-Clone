@@ -1,7 +1,8 @@
-import React from "react";
 import { Box } from "@chakra-ui/react";
-import ResultBox from "./ResultBox";
-import { matchDeatils } from "./ZimVsInd";
+import React from "react";
+import ResultBox from "../ZimVsInd/ResultBox";
+import { matchDeatils } from "./EngVsSa";
+
 const mainBox = {
   width: "25%",
   height: "100%",
@@ -18,8 +19,7 @@ const viewBtn = {
   fontWeight: 700,
   margin: "0 0 0 4rem ",
 };
-
-const LeftResultBox = () => {
+const LeftB = () => {
   return (
     <Box style={mainBox}>
       <Box
@@ -41,4 +41,4 @@ const LeftResultBox = () => {
   );
 };
 
-export default LeftResultBox;
+export default LeftB;

@@ -10,7 +10,7 @@ const ZimVsIndia = () => {
     <Box bg="gray.50">
       <Inthespot />
       <Navbar />
-      <Box display="flex" width="80%" height="1000px" margin="auto">
+      <Box display="flex" width="80%" height="auto" margin="auto">
         <LeftResultBox />
         <MIddleHIghlights />
         <RightTopPlayers />

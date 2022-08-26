@@ -1,8 +1,8 @@
 import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
-import WicketTakers from "./WicketTakers";
-import { topWicketTkers, topRunsScorer } from "./ZimVsInd";
-import AddComponent from "../../Homenews/LeftComponent/AddCompoenent";
+import AddCompoenent from "../../Homenews/LeftComponent/AddCompoenent";
+import WicketTakers from "../ZimVsInd/WicketTakers";
+import { topRunsScorer, topWicketTkers } from "./EngVsSa";
 
 const heading = {
   fontSize: "14px",
@@ -17,8 +17,7 @@ const viewBtn = {
   fontWeight: 700,
   margin: "1rem 0 0 5rem ",
 };
-
-const RightTopPlayers = () => {
+const RightB = () => {
   return (
     <Box
       style={{
@@ -65,9 +64,9 @@ const RightTopPlayers = () => {
         ))}
         <Box style={viewBtn}>View All Stats</Box>
       </Box>
-      <AddComponent />
+      <AddCompoenent />
     </Box>
   );
 };
 
-export default RightTopPlayers;
+export default RightB;

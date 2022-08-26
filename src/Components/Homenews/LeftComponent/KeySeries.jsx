@@ -32,27 +32,38 @@ const KeySeries = () => {
           <Text style={textStyle}>Zimbabwe v India</Text>
         </Box>
       </Link>
+      <Link to="/NewVsWi">
+        <Box _hover={hoverStyle} style={boxStyle}>
+          <ChevronRightIcon style={iconStyle} />
+          <Text style={textStyle}>West Indies s New Zealand</Text>
+        </Box>
+      </Link>
+      <Link to="/AusVsZim">
+        <Box _hover={hoverStyle} style={boxStyle}>
+          <ChevronRightIcon style={iconStyle} />
+          <Text style={textStyle}>Australia vs Zimbabwe</Text>
+        </Box>
+      </Link>
 
-      <Box _hover={hoverStyle} style={boxStyle}>
-        <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>West Indies s New Zealand</Text>
-      </Box>
-      <Box _hover={hoverStyle} style={boxStyle}>
-        <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Australia vs Zimbabwe</Text>
-      </Box>
-      <Box _hover={hoverStyle} style={boxStyle}>
-        <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Asia Cup</Text>
-      </Box>
-      <Box _hover={hoverStyle} style={boxStyle}>
-        <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>England vs South Africa</Text>
-      </Box>
-      <Box _hover={hoverStyle} style={boxStyle}>
-        <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Netherland vs Pakistan</Text>
-      </Box>
+      <Link to="/AsiaCupQLFs">
+        <Box _hover={hoverStyle} style={boxStyle}>
+          <ChevronRightIcon style={iconStyle} />
+          <Text style={textStyle}>Asia Cup QLFs</Text>
+        </Box>
+      </Link>
+      <Link to="/EngVsSA">
+        <Box _hover={hoverStyle} style={boxStyle}>
+          <ChevronRightIcon style={iconStyle} />
+          <Text style={textStyle}>England vs South Africa</Text>
+        </Box>
+      </Link>
+
+      <Link to="/PakVsNed">
+        <Box _hover={hoverStyle} style={boxStyle}>
+          <ChevronRightIcon style={iconStyle} />
+          <Text style={textStyle}>Netherland vs Pakistan</Text>
+        </Box>
+      </Link>
     </Box>
   );
 };

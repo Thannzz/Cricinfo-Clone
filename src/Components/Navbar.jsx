@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Image } from "@chakra-ui/react";
 import Menubar from "./Menubar";
+import { Link } from "react-router-dom";
 
 const containerStyle = {
   width: "100%",
@@ -39,12 +40,15 @@ const Navbar = () => {
     <Box style={containerStyle}>
       <Box style={innerBox}>
         <Box style={espn}>
-          <Image
-            style={espnImg}
-            src="https://wassets.hscicdn.com/static/images/logo.png"
-            alt="espnLogo"
-          />
+          <Link to="/">
+            <Image
+              style={espnImg}
+              src="https://wassets.hscicdn.com/static/images/logo.png"
+              alt="espnLogo"
+            />
+          </Link>
         </Box>
+
         <Box style={menu}>
           <Menubar />
         </Box>

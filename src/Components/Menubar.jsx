@@ -33,12 +33,25 @@ const Menubar = () => {
           <Link to="/ZimVsInd">
             <MenuItem _hover={MenuListHOver}>Zimbabwe vs India</MenuItem>
           </Link>
+          <Link to="/NewVsWi">
+            <MenuItem _hover={MenuListHOver}>
+              West Indies vs New Zealand
+            </MenuItem>
+          </Link>
+          <Link to="/AusVsZim">
+            <MenuItem _hover={MenuListHOver}>Australia vs Zimbabwe </MenuItem>
+          </Link>
 
-          <MenuItem _hover={MenuListHOver}>West Indies vs New Zealand</MenuItem>
-          <MenuItem _hover={MenuListHOver}>Australia vs Zimbabwe </MenuItem>
-          <MenuItem _hover={MenuListHOver}>Asia Cup</MenuItem>
-          <MenuItem _hover={MenuListHOver}>England vs South Africa</MenuItem>
-          <MenuItem _hover={MenuListHOver}>Netherland vs Pakistan</MenuItem>
+          <Link to="/AsiaCupQLFs">
+            <MenuItem _hover={MenuListHOver}>Asia Cup QLFs</MenuItem>
+          </Link>
+          <Link to="/EngVsSA">
+            <MenuItem _hover={MenuListHOver}>England vs South Africa</MenuItem>
+          </Link>
+
+          <Link to="/PakVsNed">
+            <MenuItem _hover={MenuListHOver}>Netherland vs Pakistan</MenuItem>
+          </Link>
         </MenuList>
       </Menu>
       <Menu>

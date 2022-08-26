@@ -1,13 +1,10 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import ResultBox from "./ResultBox";
-import { matchDeatils } from "./ZimVsInd";
+import ResultBox from "../ZimVsInd/ResultBox";
+import { matchDeatils } from "./AsiaCup";
 const mainBox = {
   width: "25%",
   height: "100%",
-  // border: "1px solid blue",
-  // marginTop: "2rem",
-  // bg: "gray.50",
 };
 
 const viewBtn = {
@@ -19,7 +16,7 @@ const viewBtn = {
   margin: "0 0 0 4rem ",
 };
 
-const LeftResultBox = () => {
+const LeftResBox = () => {
   return (
     <Box style={mainBox}>
       <Box
@@ -41,4 +38,4 @@ const LeftResultBox = () => {
   );
 };
 
-export default LeftResultBox;
+export default LeftResBox;
