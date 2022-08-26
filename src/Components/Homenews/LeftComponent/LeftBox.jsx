@@ -10,7 +10,7 @@ import QuickLinks from "./QuickLinks";
 const mainBox = {
   width: "25%",
   height: "100%",
-  border: "1px solid blue",
+  // border: "1px solid blue",
   bg: "gray.50",
 };
 

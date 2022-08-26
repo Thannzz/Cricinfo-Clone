@@ -1,5 +1,6 @@
 import React from "react";
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const MenuListHOver = {
   bg: "blue.100",
@@ -29,7 +30,10 @@ const Menubar = () => {
           Series
         </MenuButton>
         <MenuList>
-          <MenuItem _hover={MenuListHOver}>Zimbabwe vs India</MenuItem>
+          <Link to="/ZimVsInd">
+            <MenuItem _hover={MenuListHOver}>Zimbabwe vs India</MenuItem>
+          </Link>
+
           <MenuItem _hover={MenuListHOver}>West Indies vs New Zealand</MenuItem>
           <MenuItem _hover={MenuListHOver}>Australia vs Zimbabwe </MenuItem>
           <MenuItem _hover={MenuListHOver}>Asia Cup</MenuItem>

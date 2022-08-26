@@ -10,7 +10,7 @@ const RightBox = () => {
         marginLeft: "1rem",
         width: "27%",
         height: "100%",
-        border: "1px solid blue",
+        // border: "1px solid blue",
       }}
     >
       <NewsHIghlight />

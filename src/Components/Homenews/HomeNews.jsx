@@ -11,7 +11,7 @@ const HomeNews = () => {
         margin: "auto",
         width: "80%",
         height: "auto",
-        border: "1px solid red",
+        // border: "1px solid red",
         display: "flex",
       }}
     >

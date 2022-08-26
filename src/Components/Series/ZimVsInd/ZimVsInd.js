@@ -30,7 +30,7 @@ export const matchDeatils = [
   {
     id: 3,
     live: "RESULT",
-    match: "2rd ODI, Harare, August 18, 2022",
+    match: "1rd ODI, Harare, August 18, 2022",
     team1Img:
       "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340503.png",
     team2Img:
@@ -43,7 +43,7 @@ export const matchDeatils = [
   },
 ];
 
-export const newa = [
+export const news = [
   {
     id: 1,
     imgUrl:
@@ -82,7 +82,7 @@ export const topWicketTkers = [
     imgUrl:
       "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/329300/329344.4.jpg",
     name: "Axar Patel",
-    wickets: 6,
+    wicketsOrRuns: 6,
     innings: 3,
     avg: 12.33,
   },
@@ -91,7 +91,7 @@ export const topWicketTkers = [
     imgUrl:
       "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/315000/315014.jpg",
     name: "Deepak Chahar",
-    wickets: 5,
+    wicketsOrRuns: 5,
     innings: 2,
     avg: 20.44,
   },
@@ -99,7 +99,7 @@ export const topWicketTkers = [
     id: 3,
     imgUrl: "https://wassets.hscicdn.com/static/images/player-jersey.svg",
     name: "Brad Evans",
-    wickets: 5,
+    wicketsOrRuns: 5,
     innings: 3,
     avg: 20.6,
   },
@@ -111,7 +111,7 @@ export const topRunsScorer = [
     imgUrl:
       "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/312100/312153.jpg",
     name: "Shubman Gill",
-    runs: 254,
+    wicketsOrRuns: 254,
     innings: 3,
     avg: 122.5,
   },
@@ -120,7 +120,7 @@ export const topRunsScorer = [
     imgUrl:
       "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302373.jpg",
     name: "Shikhar Dhawan",
-    runs: 154,
+    wicketsOrRuns: 154,
     innings: 3,
     avg: 77.0,
   },
@@ -129,7 +129,7 @@ export const topRunsScorer = [
     imgUrl:
       "https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/181300/181305.1.jpg",
     name: "Sikandar Raza",
-    runs: 143,
+    wicketsOrRuns: 143,
     innings: 3,
     avg: 47.66,
   },

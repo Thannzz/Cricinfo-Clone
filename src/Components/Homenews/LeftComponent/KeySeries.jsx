@@ -1,8 +1,13 @@
 import React from "react";
 import { Box, Text } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import { boxStyle, hoverStyle, iconStyle, textStyle } from "../../utils/LeftBoxSTyle";
-
+import {
+  boxStyle,
+  hoverStyle,
+  iconStyle,
+  textStyle,
+} from "../../utils/LeftBoxSTyle";
+import { Link } from "react-router-dom";
 
 const KeySeries = () => {
   return (
@@ -21,10 +26,13 @@ const KeySeries = () => {
           Key Series
         </Text>
       </Box>
-      <Box _hover={hoverStyle} style={boxStyle}>
-        <ChevronRightIcon style={iconStyle} />
-        <Text style={textStyle}>Zimbabwe v India</Text>
-      </Box>
+      <Link to="ZimVsInd">
+        <Box _hover={hoverStyle} style={boxStyle}>
+          <ChevronRightIcon style={iconStyle} />
+          <Text style={textStyle}>Zimbabwe v India</Text>
+        </Box>
+      </Link>
+
       <Box _hover={hoverStyle} style={boxStyle}>
         <ChevronRightIcon style={iconStyle} />
         <Text style={textStyle}>West Indies s New Zealand</Text>
