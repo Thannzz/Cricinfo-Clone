@@ -10,7 +10,10 @@ import Home from "./Home";
 import India from "./India";
 import NewVsWI from "./NewVsWI";
 import NewZealand from "./NewZealand";
+import Pakistan from "./Pakistan";
 import PakVsNed from "./PakVsNed";
+import SouthAfrica from "./SouthAfrica";
+import SriLanka from "./SriLanka";
 import ZimVsIndia from "./ZimVsIndia";
 
 const AllRoutes = () => {
@@ -28,6 +31,9 @@ const AllRoutes = () => {
       <Route path="/England" element={<England />} />
       <Route path="/India" element={<India />} />
       <Route path="/NewZealand" element={<NewZealand />} />
+      <Route path="/Pakistan" element={<Pakistan />} />
+      <Route path="/SouthAfrica" element={<SouthAfrica />} />
+      <Route path="/SriLanka" element={<SriLanka />} />
     </Routes>
   );
 };

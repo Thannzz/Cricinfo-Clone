@@ -11,7 +11,7 @@ const FirstNews = ({ data }) => {
     >
       <Box
         w="100%"
-        h="356px"
+        h="auto"
         // border="1px solid red"
         marginTop="2rem"
         overflow="hidden"
@@ -29,7 +29,7 @@ const FirstNews = ({ data }) => {
       <Box
         mt="-1.1rem"
         w="100%"
-        h="150px"
+        h="auto"
         bgColor="black"
         color="white"
         borderBottomLeftRadius="0.75rem"

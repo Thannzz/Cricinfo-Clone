@@ -74,10 +74,15 @@ const Menubar = () => {
           <Link to="/NewZealand">
             <MenuItem _hover={MenuListHOver}>New Zealand</MenuItem>
           </Link>
-
-          <MenuItem _hover={MenuListHOver}>Pakistan</MenuItem>
-          <MenuItem _hover={MenuListHOver}>South Africa</MenuItem>
-          <MenuItem _hover={MenuListHOver}>Sri Lanka</MenuItem>
+          <Link to="/Pakistan">
+            <MenuItem _hover={MenuListHOver}>Pakistan</MenuItem>
+          </Link>
+          <Link to="/SouthAfrica">
+            <MenuItem _hover={MenuListHOver}>South Africa</MenuItem>
+          </Link>
+          <Link to="/SriLanka">
+            <MenuItem _hover={MenuListHOver}>Sri Lanka</MenuItem>
+          </Link>
         </MenuList>
       </Menu>
       <Menu>
