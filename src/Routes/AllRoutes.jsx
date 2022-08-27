@@ -1,10 +1,15 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import AsiaCupQLFs from "./AsiaCupQLFs";
+import Australia from "./Australia";
 import AusVsZim from "./AusVsZim";
+import Bangladesh from "./Bangladesh";
+import England from "./England";
 import EngVsSA from "./EngVsSA";
 import Home from "./Home";
+import India from "./India";
 import NewVsWI from "./NewVsWI";
+import NewZealand from "./NewZealand";
 import PakVsNed from "./PakVsNed";
 import ZimVsIndia from "./ZimVsIndia";
 
@@ -18,6 +23,11 @@ const AllRoutes = () => {
       <Route path="/AusVsZim" element={<AusVsZim />} />
       <Route path="/PakVsNed" element={<PakVsNed />} />
       <Route path="/EngVsSA" element={<EngVsSA />} />
+      <Route path="/Australia" element={<Australia />} />
+      <Route path="/Bangladesh" element={<Bangladesh />} />
+      <Route path="/England" element={<England />} />
+      <Route path="/India" element={<India />} />
+      <Route path="/NewZealand" element={<NewZealand />} />
     </Routes>
   );
 };

@@ -59,11 +59,22 @@ const Menubar = () => {
           Teams
         </MenuButton>
         <MenuList>
-          <MenuItem _hover={MenuListHOver}>Australia</MenuItem>
-          <MenuItem _hover={MenuListHOver}>Bangladesh</MenuItem>
-          <MenuItem _hover={MenuListHOver}>England</MenuItem>
-          <MenuItem _hover={MenuListHOver}>India</MenuItem>
-          <MenuItem _hover={MenuListHOver}>New Zealand</MenuItem>
+          <Link to="/Australia">
+            <MenuItem _hover={MenuListHOver}>Australia</MenuItem>
+          </Link>
+          <Link to="/Bangladesh">
+            <MenuItem _hover={MenuListHOver}>Bangladesh</MenuItem>
+          </Link>
+          <Link to="/England">
+            <MenuItem _hover={MenuListHOver}>England</MenuItem>
+          </Link>
+          <Link to="/India">
+            <MenuItem _hover={MenuListHOver}>India</MenuItem>
+          </Link>
+          <Link to="/NewZealand">
+            <MenuItem _hover={MenuListHOver}>New Zealand</MenuItem>
+          </Link>
+
           <MenuItem _hover={MenuListHOver}>Pakistan</MenuItem>
           <MenuItem _hover={MenuListHOver}>South Africa</MenuItem>
           <MenuItem _hover={MenuListHOver}>Sri Lanka</MenuItem>
